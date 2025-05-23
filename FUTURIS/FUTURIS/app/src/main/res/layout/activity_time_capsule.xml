@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="@drawable/capsule_background"
+    android:weightSum="1">
+
+    <EditText
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:hint="Enter title"
+        android:fontFamily="@font/baskervville"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#AAAAAA"
+        android:textSize="24sp"
+        android:background="@drawable/border_box"
+        android:padding="16dp"/>
+
+    <EditText
+        android:id="@+id/etMessage"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="24dp"
+        android:layout_weight="0.3"
+        android:background="@drawable/border_box"
+        android:fontFamily="@font/baskervville"
+        android:gravity="top"
+        android:hint="Enter your message here"
+        android:padding="16dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#AAAAAA"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/etDate"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#292929"
+        android:fontFamily="@font/baskervville"
+        android:text="SELECT DATE"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:cornerRadius="0dp" />
+
+
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="#04012e"
+        android:fontFamily="@font/wallpoet"
+        android:text="SAVE"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#04012e"
+        android:fontFamily="@font/wallpoet"
+        android:text="BACK"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+</LinearLayout>
+
+

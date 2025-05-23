@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/backgroundsplash">
+
+
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="147dp"
+        android:layout_height="136dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="132dp"
+        android:src="@drawable/finalapp" />
+
+    <ImageView
+        android:id="@+id/gifView"
+        android:layout_width="201dp"
+        android:layout_height="204dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="111dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="28dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/finalappgif" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="276dp"
+        android:layout_height="65dp"
+        android:layout_above="@+id/gifView"
+        android:layout_below="@+id/appLogo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="175dp"
+        android:fontFamily="@font/wallpoet"
+        android:text="FUTURIS"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
+
